@@ -1,0 +1,260 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" ontent="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b">
+			<h1>SQUARE・ENIX 기업 소개</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<br /><br /><br />
+				<img src="270px-Square_Enix_logo.svg.png" >
+				<br /><br />
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">기업 소개</a></li>
+				<li><a href="#intro2">사업 개요</a></li>
+				<li><a href="#game">대표작 소개</a></li>
+				<li><a href="http://www.jp.square-enix.com/recruit/career/english/">채용정보</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h4><a href="http://www.jp.square-enix.com/">공식 홈페이지</a></h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>기업 소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="270px-Square_Enix_logo.svg - 2.png">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>기업정보</h3>
+					<ul>
+						<li>상호 : 주식회사 스퀘어 에닉스 (영어 표기 : SQUARE ENIX CO., LTD.)</li>
+						<li>설립 : 2008 (헤세이 20) 년 10 월 1 일</li>
+						<li>위치 : 본사 - 〒160-8430 / 도쿄도 신주쿠 구 신주쿠 6 쵸메 27 번 <br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30 호 신주쿠 이스트 사이드 스퀘어 [ MAP ]<br/>
+						    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEL : 03-5292-8100 (대표) <br/>
+						    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업소 오사카
+						</li>
+						<li>대표 이사 : 마츠다 요스케</li>
+						<li>자본금	: 15 억엔 (2017 년 3 월 31 일 현재)</li>
+						<li>주주 : <a href="http://www.hd.square-enix.com/jpn/">스퀘어 에닉스 홀딩스 (100 %)</a> </li>
+					</ul>
+				</div>
+				<div data-role="collapsible">
+					<h3>기업이념</h3>
+					<p>"최고의 '이야기'를 제공함으로써 전세계 사람들의 행복에 공헌한다."<br/><br/>
+						기업 이념은 저희의 목적, 우리의 존재 이유입니다.<br/>
+						고객 여러분은 각각의 행복의 형태가 있습니다. <br/>
+						저희는 고급 콘텐츠, 서비스 상품을 제공하고 본인에게 좋은 이야기, 즉 추억을 만들어 주시는 것으로, 여러분의 둘도없는 행복의 도움이 있다면 바라고 있습니다.
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>공식 사이트</h3>
+					<p>
+						<a href="http://www.jp.square-enix.com/">http://www.jp.square-enix.com/</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h4><a href="http://www.jp.square-enix.com/">공식 홈페이지</a></h4>
+		</div>		
+	</div>
+	<div data-role="page" id="intro2" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>사업 소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<p><br /><br />스퀘어 에닉스 그룹은 세계의 엔터테인먼트 컨텐츠 / 서비스의 집적지 인 도쿄, 로스 앤젤레스, 런던 등에 거점을두고<br />
+					 엔터테인먼트, 오락, 출판, 라이츠 속성 등의 4 가지 영역에서 사업을 전개 있습니다.<br /><br />
+					스퀘어 에닉스 그룹 거점<br />
+					<img src="제목 없음.png"><br /><br />
+					스퀘어 에닉스, 타이토는 국제적인 브랜드 아래, 우리 그룹의 강점 인 자사 IP (Intellectual Property, 지적 재산권)를 활용하여 <br />
+					개인 고객의 취향을 파악한 최고의 엔터테인먼트 컨텐츠 / 서비스를 제공하고 있습니다 .<br />
+					</p>
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>디지털 엔터테이먼트</h3>
+					<p><br /><br />
+					<img src="제목 없음1.png"><br /><h3>"전세계의 고객들에게 자신의 세계관을 가진 고품질의 게임을 제공하고 다수의 밀리언 셀러를 창출하고,<br />
+					 고객의 취향과 라이프 스타일에 맞춘 다양한 상품 개발에 노력하고 있습니다."</h3><br />
+					<br />본 사업에서는 게임을 중심으로하는 디지털 엔터테인먼트의 기획, 개발, 판매 및 운영을하고 있습니다.<br />
+					 세계 각국에 배치 한 고급 개발 거점 국제적인 사업 추진 체제를 살려, 다양한 디지털 엔터테인먼트 콘텐츠를 개발, 전세계 고객에게 제공하고 있습니다.<br />
+					 첨단 기술을 활용 한 HD (고화질) 게임 외에도 대형 온라인 게임, 모바일 게임과 웹 게임 등 그동안 쌓아온 게임 개발 능력, 자사 IP,<br />
+					  온라인 서비스 운영 노하우를 활용하여 사업 전개를 추진하고 있습니다.<br />
+					 </p>
+				</div>
+				<div data-role="collapsible">
+					<h3>오락</h3>
+					<p><br /><br /><img src="제목 없음2.png"><br /><h3>"고객의 마음을 사로 잡는 우리가 미쳐 '을 슬로건으로 일본 전국에서 전개하는 어뮤즈먼트 시설 「타이토 스테이션'을 기점으로 <br />
+					지역 밀착 형 엔터테인먼트를 발신하고 있습니다."</h3><br /><br />
+					일본 전국의 도심을 중심으로 140 개소 (※ 1)에서 전개하는 어뮤즈먼트 시설 「타이토 스테이션」에서는<br />
+					 폭 넓은 세대에 높은 인지도를 얻고있는「스페이스 인베이더 」를 브랜드 심볼로 자리 잡아 지역에 밀착 한 다채로운 형태의 가게 만들기를 추진,<br />
+					  전략적 점포 전개와 멀티 전자 화폐에 대응 한 결제 단말기의 순차적 도입, 접객 서비스의 한층 더 향상 등에 노력하고 있습니다.<br />
+					   또한 시설 운영의 경험을 살린 오락 시설 프랜차이즈 사업, 업무용 게임 장비 대여 사업의 전개도 실시하고 있습니다.<br />
+					   업무용 게임 기기 개발 분야에서는 시설 운영을 통해 축적 된 노하우를 살려 여성과 어린이 등 다양한 계층의 고객들도 즐길 수있는 게임과<br />
+					    시장의 활성화로 연결 업무용 게임의 개발을 추진 동시에, 업무용 게임 기판과 범용 케이스의 외부 판매를 통해 높은 기술력을 경쟁사에 제공하고 있습니다.
+					    <br />
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>출판</h3>
+					<p><br /><br />
+						<img src="제목 없음4.png"><img src="제목 없음5.png"><br /><h3>"정기 간행물과 만화의 출판을 기반으로 한 크로스 미디어 전략뿐만 아니라 작가와 편집자의 좋은 팀워크와 작품에 <br />
+						선행 투자를 육성 형 사업 자세에 따라 매년 꾸준히 히트 콘텐츠를 만들어 내고 있습니다 ."
+						</h3><br /><br />스퀘어 에닉스 브랜드 게임의 공식 가이드 북과 노벨 라이즈 등의 게임 관련 서적의 출판과 만화 잡지의 정기 간행물,<br />
+						 만화 일러스트 라이트 노벨을 게재하는 웹 매거진 정기 업데이트, 디지털 만화 배달 및 연재 작품 코믹스 등의 출판과이를 원작으로하는 애니메이션과<br />
+						  실사 드라마 · 영화화 무대 화, 상품의 기획 · 제작 사업을하고 있습니다.<br />
+						  게임 관련 서적의 출판은 「아루티마니아」시리즈와「공식 컴플리트 가이드」등 공식 가이드 북 만의 게임 공략 정보에<br />
+						   머무르지 않는 풍부한 정보를 제공하고 많은 고객에게 호평을 받고 있습니다. <br />
+						   또한 정기적 만화 잡지에는 「소년 간간」, 「G 판타지」, 「간간 JOKER」, 「영 간간」,<br />
+						    「빅 간간」의 5 가지 웹진 과「간간 ONLINE」이 2017 년 3 월에  총 360 점 이상의 만화 나 책을 출판했습니다.<br />
+						     인기 만화의 디지털 전달도 계속 확대 · 강화하고 더 많은 고객에게 작품에 접해 볼 수있는 기회를 제공합니다. <br />
+						     「강철의 연금술사」(코믹스 누계 발행 부수 6,700 만부 이상), 「드래곤 퀘스트 열전 로토의 문장」(동 2,000 만부 이상),<br />
+						      「소울 이터」(동 1,800 만부 이상), 「흑 집사」(동 2,400 만부 이상)을 비롯한 히트 콘텐츠가 이러한 정기 간행물에서 탄생하여<br />
+						    TV · 극장판 애니메이션이나 드라마로 무대 화, 게임 화 등의 크로스 미디어 전략을 통해 더 많은 팬들을 확보하고 있습니다.<br />
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>라이츠 속성 등</h3>
+					<p>
+						<br /><br /><img src="제목 없음3.png"><br /><h3>"세계관을 충실히 재현 한 피규어 나 각종 상품을 확장하고<br />
+						 기존 팬뿐만 아니라 새로운 고객층을 개척하고 있습니다."</h3> <br /><br />
+						 우리 그룹 및 타사 IP 콘텐츠를 중심으로 이차적 저작물의 기획, 제작, 판매 및 라이센스 관리 등을 실시하고 있습니다. <br />
+						 정교한 피규어 나 액세서리 등 고품격 상품을 제공하는 「스퀘어 에닉스 프로덕츠 (products)」와 <br />
+						 주로 봉제 인형과 실제 상품 등을 손쉽게 구입하실「스퀘어 에닉스 토이즈」의 2 카테고리의 상품사업을 전개하고 있습니다.<br />
+						 「스퀘어 에닉스 프로덕츠 (products)」에서는 우리 그룹의 캐릭터를 모티브로 한 고품질의 액션 피규어 시리즈 <br />
+						 「플레이어 고치기」등을 전개하고 전 세계적으로 높은 인기를 얻고 있습니다. <br /> 또한 국내외 업체의 유력 IP의 상품화도 추진하고 있습니다.  <br />
+						 또한「스퀘어 에닉스 토이즈 」에서는 우리 그룹의 캐릭터를 사용한 인형과 「드래곤 퀘스트」시리즈를<br />
+						  모티브로 전개하는 문구 실용품 시리즈 「Smile Slime」등이 인기를 끌고 있습니다.<br />
+						   이 밖에 1993 년부터 전개하고있는 「드래곤 퀘스트」시리즈의 캐릭터가 그려진 연필「바토 엔」은 <br />
+						  국내에서 누계 출하 3,940 만 팟쿠 이상에 이르고 있습니다.<br />
+						   또한 최신 상품 판매와 병설 한 카페 & 바에서 원래 음식과 음료를 제공 할 오피셜 숍 「ARTNIA」외,<br />
+						    카페 공간의 테마 체인지를 컨셉으로 테마가 게임을 따서 다 음식 메뉴의 전개, 한정 상품 류의 판매 등을 할 공식 카페 <br />
+						    「스퀘어 에닉스 카페 '등 자사 IP를 다양한 형태로 즐길하실위한 노력도하고 있습니다.<br />
+						    이 외에도 자사 IP의 강점을 살린 고품질의 영상 작품, 사운드 트랙 등의 판매 · 허가 등을 전개 히트작이되고 있습니다.<br />
+					</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h4><a href="http://www.jp.square-enix.com/">공식 홈페이지</a></h4>
+		</div>		
+	</div>
+	<div data-role="page" id="game" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>대표작 소개</h1>
+		</div>
+		<div data-role="content">
+			<div  style="text-align:center">
+					<img src="about-img.png">
+					<h1> 드래곤 퀘스트 시리즈  </h1>
+			</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>시리즈 소개</h3>
+					<p>「드래곤 퀘스트」시리즈는 플레이어 자신이 주인공이되어,
+					 세계를 위협하는 마왕을 물리 치기 위해 멋진 모험 이야기끈을 풀어 나가는 일본을 대표하는 롤 플레잉 게임 (RPG)입니다.<br /><br />
+
+					게임 디자이너 호리이 유지 씨는 만화적인 코믹한 메시지와 대사 표현과 전투를 거듭하는 것으로 캐릭터가 
+					레벨 업 해 나가는 시스템을 이용하여 1986 년 누구에게나 친숙한 RPG로 「드래곤 퀘스트」를 만들었 습니다.<br /><br />
+					시리즈를 통해 등장하는 '슬라임'을 비롯한 몬스터 나 캐릭터 디자인은 
+					「드래곤 볼」등으로 세계적으로 알려진 만화가, 토리 야마 아키라 씨가 담당. <br /><br />
+					또한 음악은 일본에서 대중 음악 등도 다루고 작곡가 스기야마 고이치 씨가 담당하고 
+					당시 게임 음악으로는 드문 오케스트라의 음악을 게임에 도입함으로써 
+					보다 깊이있는 판타지의 세계관이 게임 안에 재현되었습니다. <br /><br />
+					「드래곤 퀘스트」시리즈는 1986 년에 발매 된 패미컴 용 소프트 「드래곤 퀘스트」에서 
+					2012 년에 발매 된 「드래곤 퀘스트 Ⅹ」까지 일관된 왕도 RPG의 세계관을 지켜 나가는 한편, 3D지도 채용, 
+					무선 통신을 사용한 「엇갈림 기능 "을 탑재, 온라인 지원, 클라우드 게임의 대응 등 
+					각각의 제목에서 시대에 맞는 기술을 이용한 새로운 게임의 창조에 도전을하고있는 타이틀 이기도합니다. <br /><br />
+					또한 Ⅰ ~ Ⅹ 외에도 몬스터의 육성 · 대전 요소에 특화 한 「드래곤 퀘스트 몬스터 즈」시리즈, 
+					리얼한 표현으로 캐릭터들을 자유 자재로 조종 액션 RPG 인 '드래곤 퀘스트 히어로즈」시리즈 등 
+					80여 제목 이 출시 된 패키지는 전세계에서 시리즈 누계 6600 만장을 출하하고 있습니다. <br /><br />
+					■ 시리즈 제 1 탄 발매일 「드래곤 퀘스트」1986 년 5 월 27 일 (대응 기종 : 패밀리 컴퓨터)  <br />
+					■ 패키지 게임 누계 출하 갯수 : 6600 만개 이상 (2015 년 3 월말 현재) <br /><br />
+					「드래곤 퀘스트 탄생 30 주년 기념 포털 사이트 "는 여기  <br />
+					http://www.dragonquest.jp/30th/</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>관련 사이트</h3>
+					<p><a href="http://www.dragonquest.jp/topics/">http://www.dragonquest.jp/topics/</a></p>
+				</div>			
+			</div>
+			<br /><br /><br /><br />
+			<div  style="text-align:center">
+					<img src="fflo.png" width="100%">
+					<h1> 파이널 판타지 시리즈  </h1>
+			</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>시리즈 소개</h3>
+					<p>「FINAL FANTASY」시리즈는 1987 년 첫 작품 발매 이래 최첨단의 영상 기술과 독특한 세계관, <br />
+					풍부한 스토리 성으로 전 세계 고객들로부터 높은 평가를 얻고있는 일본에서의 롤 플레잉 게임입니다.<br /> 
+					구미 시장에도 적극적으로 전개 해 전 세계에서 누계 1 억 3,500 만개 이상 출하 다운로드 판매를 달성, <br />
+					2017 년에는 '가장 타이틀 수가 많은 롤 플레잉 게임 시리즈'로 기네스 세계 기록에 인정 ( 기록 : 87 작)되어 있습니다.</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>관련 사이트</h3>
+					<p><a href="https://jp.finalfantasy.com/">https://jp.finalfantasy.com/</a></p>
+				</div>	
+			</div>
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#movie" data-rel="dialog">소개 영상</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h4><a href="http://www.jp.square-enix.com/">공식 홈페이지</a></h4>
+		</div>		
+	</div>
+	
+	<div data-role="page" id="movie" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>시리즈 소개 영상</h1>
+		</div>
+		<div data-role="content" >
+			<div class="ui-bar ui-bar-e">PS4 판 닌텐도 3DS 판 「드래곤 퀘스트 XI 지나간 시간을 찾아」</div><br/>
+			<li><video controls width="100%" preload="metadata">
+				<source src="「드래곤 퀘스트 XI 지나간 시간을 찾아」.mp4" type="video/mp4">
+			</video></li><br/>
+			<div class="ui-bar ui-bar-e">FINAL FANTASY XV ROYAL EDITION(파이널 판타지 15 DLC 추가판)</div><br/>
+			<li><video controls width="100%" preload="metadata">
+				<source src="FINAL FANTASY XV ROYAL EDITION.mp4" type="video/mp4">
+			</video></li>
+		</div>
+		<div data-role="footer" data-theme="b">
+			<h4><a href="http://www.jp.square-enix.com/">공식 홈페이지</a></h4>
+		</div>
+	</div>
+	
+
+</div>	
+</body>
+</html>
